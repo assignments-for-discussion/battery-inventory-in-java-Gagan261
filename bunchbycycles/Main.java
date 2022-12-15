@@ -25,6 +25,10 @@ public class Main {
 	    }
 	    	
 	    }
+	  System.out.println(counts.highCount);
+	  System.out.println(counts.mediumCount);
+	  System.out.println(counts.lowCount);
+	  
 	    return counts;
 	  }
 
@@ -39,7 +43,6 @@ public class Main {
 
 	  public static void main(String[] args) {
 		  testBucketingByNumberOfCycles();
-	    countBatteriesByUsage(new int[] {100, 300, 500, 600, 900, 1000});
-	   
+	    
 	  }
 	}
